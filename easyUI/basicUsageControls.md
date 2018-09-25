@@ -37,11 +37,11 @@ $(obj).attr("id").indexOf(dict_id);
         onChange: function () {-- (更改事件)  </br>
             comboboxChangeFunc(id);
         }
-    });
+    }); </br>
     ### 1.1.8 替换
-     <code> $(element).attr("id").replace("scc_", "");</code>
+     <code> $(element).attr("id").replace("scc_", "");</code> </br>
     ### 1.1.9 json 初始化
-      <code> 
+    <code> 
     var firstObj={};
     firstObj["value1"] ="-1";
     firstObj["text1"]="--请选择--";
@@ -49,5 +49,5 @@ $(obj).attr("id").indexOf(dict_id);
     firstObj.value1="-1";
     firstObj.text1="--请选择--";
     dictList.push(firstObj);
- </code>
-    </br>
+    </code>
+  </br>
