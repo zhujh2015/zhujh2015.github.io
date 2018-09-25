@@ -39,3 +39,14 @@ $(obj).attr("id").indexOf(dict_id);
             comboboxChangeFunc(id);
         }
     });
+    ### 1.1.8 替换
+     $(element).attr("id").replace("scc_", "");</br>
+    ### 1.1.9 json 初始化
+    var firstObj={};
+    firstObj["value1"] ="-1";
+    firstObj["text1"]="--请选择--";
+    或者
+    firstObj.value1="-1";
+    firstObj.text1="--请选择--";
+    dictList.push(firstObj);
+    </br>
