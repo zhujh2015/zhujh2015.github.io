@@ -25,17 +25,17 @@ $(obj).attr("id").indexOf(dict_id);
  首行插入 unshift  </br>
  末尾插入 push  </br>
     $("#" + id).combobox({
-        data: dictList,
-        valueField: valueField == "" || valueField == undefined ? "key" : valueField,
-        textField: textField == "" || valueField == undefined ? "value" : textField,
-        panelHeight: "200", [comment]: <> (列表高度) 
-        editable: true,
-        limitToList: true,
-        value: defValue,
-        onSelect: function () {
+        data: dictList,</br>
+        valueField: valueField == "" || valueField == undefined ? "key" : valueField,</br>
+        textField: textField == "" || valueField == undefined ? "value" : textField,</br>
+        panelHeight: "200", -- (列表高度)  </br>
+        editable: true, -- (可编辑)  </br>
+        limitToList: true, -- (列表检索)  </br>
+        value: defValue,-- (设置默认值)  </br>
+        onSelect: function () { -- (选择事件)  </br>
             comboboxSelectFunc(id);
         },
-        onChange: function () {
+        onChange: function () {-- (更改事件)  </br>
             comboboxChangeFunc(id);
         }
     });
