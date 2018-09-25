@@ -39,7 +39,7 @@ $(obj).attr("id").indexOf(dict_id);
         }
     }); </br>
 ### 1.1.8 替换
-     <code> $(element).attr("id").replace("scc_", "");</code> </br>
+     <code> $(element).attr("id").replace("scc_", "");</code> 
 ### 1.1.9 json 初始化
     <code> 
     var firstObj={};
@@ -50,4 +50,3 @@ $(obj).attr("id").indexOf(dict_id);
     firstObj.text1="--请选择--";
     dictList.push(firstObj);
     </code>
-  </br>
