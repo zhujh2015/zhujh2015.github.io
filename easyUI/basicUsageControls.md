@@ -1,6 +1,5 @@
-# easyui 的基础控件用法
-
-## 1.1
+# markdown https://www.w3cschool.cn/lme/q92a1srq.html
+## 1.1 easyui 的基础控件用法
 ### 1.1.1 combobox 获取
 hpt_no = $("#" + id).combobox('getValue');
 hpt_noName =$('#ageCrowdDw_Txt').combobox('getText');
@@ -24,6 +23,7 @@ $(obj).attr("id").indexOf(dict_id);
  dictList.unshift({"key": "-1", "value": "--请选择--"});  </br>
  首行插入 unshift  </br>
  末尾插入 push  </br>
+ <code>
     $("#" + id).combobox({
         data: dictList,</br>
         valueField: valueField == "" || valueField == undefined ? "key" : valueField,</br>
@@ -39,8 +39,10 @@ $(obj).attr("id").indexOf(dict_id);
             comboboxChangeFunc(id);
         }
     });
+ </code>
     ### 1.1.8 替换
-     $(element).attr("id").replace("scc_", "");</br>
+     <code> $(element).attr("id").replace("scc_", "");
+     </code>
     ### 1.1.9 json 初始化
     var firstObj={};
     firstObj["value1"] ="-1";
