@@ -21,13 +21,14 @@ $(obj).attr("id").indexOf(dict_id);
  $("#div_ageCrowd div").each(function (index, element) {});
  
 ### 1.1.7 combobox 初始化
- dictList.unshift({"key": "-1", "value": "--请选择--"});
- </br>
+ dictList.unshift({"key": "-1", "value": "--请选择--"});  </br>
+ 首行插入 unshift  </br>
+ 末尾插入 push  </br>
     $("#" + id).combobox({
         data: dictList,
         valueField: valueField == "" || valueField == undefined ? "key" : valueField,
         textField: textField == "" || valueField == undefined ? "value" : textField,
-        panelHeight: "200", 列表高度
+        panelHeight: "200", [comment]: <> (列表高度) 
         editable: true,
         limitToList: true,
         value: defValue,
