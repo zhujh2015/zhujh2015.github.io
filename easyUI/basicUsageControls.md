@@ -38,9 +38,9 @@ $(obj).attr("id").indexOf(dict_id);
             comboboxChangeFunc(id);
         }
     }); </br>
-    ### 1.1.8 替换
+### 1.1.8 替换
      <code> $(element).attr("id").replace("scc_", "");</code> </br>
-    ### 1.1.9 json 初始化
+### 1.1.9 json 初始化
     <code> 
     var firstObj={};
     firstObj["value1"] ="-1";
