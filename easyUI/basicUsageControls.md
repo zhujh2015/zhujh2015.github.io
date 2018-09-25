@@ -22,6 +22,7 @@ $(obj).attr("id").indexOf(dict_id);
  
 ### 1.1.7 combobox 初始化
  dictList.unshift({"key": "-1", "value": "--请选择--"});
+ </br>
     $("#" + id).combobox({
         data: dictList,
         valueField: valueField == "" || valueField == undefined ? "key" : valueField,
