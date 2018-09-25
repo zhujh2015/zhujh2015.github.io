@@ -23,7 +23,6 @@ $(obj).attr("id").indexOf(dict_id);
  dictList.unshift({"key": "-1", "value": "--请选择--"});  </br>
  首行插入 unshift  </br>
  末尾插入 push  </br>
- <code>
     $("#" + id).combobox({
         data: dictList,</br>
         valueField: valueField == "" || valueField == undefined ? "key" : valueField,</br>
@@ -39,11 +38,10 @@ $(obj).attr("id").indexOf(dict_id);
             comboboxChangeFunc(id);
         }
     });
- </code>
     ### 1.1.8 替换
-     <code> $(element).attr("id").replace("scc_", "");
-     </code>
+     <code> $(element).attr("id").replace("scc_", "");</code>
     ### 1.1.9 json 初始化
+      <code> 
     var firstObj={};
     firstObj["value1"] ="-1";
     firstObj["text1"]="--请选择--";
@@ -51,4 +49,5 @@ $(obj).attr("id").indexOf(dict_id);
     firstObj.value1="-1";
     firstObj.text1="--请选择--";
     dictList.push(firstObj);
+ </code>
     </br>
